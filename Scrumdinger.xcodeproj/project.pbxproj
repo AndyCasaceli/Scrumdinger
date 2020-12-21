@@ -14,6 +14,7 @@
 		1C456458258D23A5000D3F34 /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C456457258D23A5000D3F34 /* DailyScrum.swift */; };
 		1C45645C258D26BC000D3F34 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C45645B258D26BC000D3F34 /* CardView.swift */; };
 		1C45645F258D2F76000D3F34 /* Color+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C45645E258D2F76000D3F34 /* Color+Codable.swift */; };
+		1C4564622591264A000D3F34 /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4564612591264A000D3F34 /* ScrumsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		1C456457258D23A5000D3F34 /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
 		1C45645B258D26BC000D3F34 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		1C45645E258D2F76000D3F34 /* Color+Codable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+Codable.swift"; sourceTree = "<group>"; };
+		1C4564612591264A000D3F34 /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 			children = (
 				1C456447258CFE88000D3F34 /* MeetingView.swift */,
 				1C45645B258D26BC000D3F34 /* CardView.swift */,
+				1C4564612591264A000D3F34 /* ScrumsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -164,6 +167,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C456448258CFE88000D3F34 /* MeetingView.swift in Sources */,
+				1C4564622591264A000D3F34 /* ScrumsView.swift in Sources */,
 				1C456458258D23A5000D3F34 /* DailyScrum.swift in Sources */,
 				1C45645C258D26BC000D3F34 /* CardView.swift in Sources */,
 				1C45645F258D2F76000D3F34 /* Color+Codable.swift in Sources */,
