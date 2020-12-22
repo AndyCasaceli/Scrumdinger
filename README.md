@@ -1,3 +1,3 @@
 # Scrumdinger
 
-Implement Apple's Scrumdinger tutorial.
+Implement Apple's Scrumdinger SwiftUI tutorial.
