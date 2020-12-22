@@ -16,6 +16,7 @@
 		1C45645F258D2F76000D3F34 /* Color+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C45645E258D2F76000D3F34 /* Color+Codable.swift */; };
 		1C4564622591264A000D3F34 /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4564612591264A000D3F34 /* ScrumsView.swift */; };
 		1C456465259248D3000D3F34 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C456464259248D3000D3F34 /* DetailView.swift */; };
+		1C45646825925643000D3F34 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C45646725925643000D3F34 /* EditView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		1C45645E258D2F76000D3F34 /* Color+Codable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+Codable.swift"; sourceTree = "<group>"; };
 		1C4564612591264A000D3F34 /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
 		1C456464259248D3000D3F34 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		1C45646725925643000D3F34 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 				1C45645B258D26BC000D3F34 /* CardView.swift */,
 				1C4564612591264A000D3F34 /* ScrumsView.swift */,
 				1C456464259248D3000D3F34 /* DetailView.swift */,
+				1C45646725925643000D3F34 /* EditView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -171,6 +174,7 @@
 			files = (
 				1C456448258CFE88000D3F34 /* MeetingView.swift in Sources */,
 				1C4564622591264A000D3F34 /* ScrumsView.swift in Sources */,
+				1C45646825925643000D3F34 /* EditView.swift in Sources */,
 				1C456458258D23A5000D3F34 /* DailyScrum.swift in Sources */,
 				1C456465259248D3000D3F34 /* DetailView.swift in Sources */,
 				1C45645C258D26BC000D3F34 /* CardView.swift in Sources */,
