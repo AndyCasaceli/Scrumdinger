@@ -23,6 +23,8 @@
 		1CF9474525927CC800F84D8E /* AVPlayer+Ding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF9474425927CC800F84D8E /* AVPlayer+Ding.swift */; };
 		1CF94748259382E000F84D8E /* MeetingFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF94747259382E000F84D8E /* MeetingFooterView.swift */; };
 		1CF9474E2593864D00F84D8E /* ding.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1CF9474D2593864D00F84D8E /* ding.wav */; };
+		1CF947522593A3C400F84D8E /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF947512593A3C400F84D8E /* History.swift */; };
+		1CF947552593BD5500F84D8E /* ScrumData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF947542593BD5500F84D8E /* ScrumData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +46,8 @@
 		1CF9474425927CC800F84D8E /* AVPlayer+Ding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AVPlayer+Ding.swift"; sourceTree = "<group>"; };
 		1CF94747259382E000F84D8E /* MeetingFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingFooterView.swift; sourceTree = "<group>"; };
 		1CF9474D2593864D00F84D8E /* ding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ding.wav; sourceTree = "<group>"; };
+		1CF947512593A3C400F84D8E /* History.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
+		1CF947542593BD5500F84D8E /* ScrumData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,10 +102,12 @@
 		1C456456258D2394000D3F34 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				1CF947512593A3C400F84D8E /* History.swift */,
 				1CF9474425927CC800F84D8E /* AVPlayer+Ding.swift */,
 				1C456457258D23A5000D3F34 /* DailyScrum.swift */,
 				1C45645E258D2F76000D3F34 /* Color+Codable.swift */,
 				1CF9474125927CC000F84D8E /* ScrumTimer.swift */,
+				1CF947542593BD5500F84D8E /* ScrumData.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -209,8 +215,10 @@
 			files = (
 				1C456448258CFE88000D3F34 /* MeetingView.swift in Sources */,
 				1C4564622591264A000D3F34 /* ScrumsView.swift in Sources */,
+				1CF947522593A3C400F84D8E /* History.swift in Sources */,
 				1C45646825925643000D3F34 /* EditView.swift in Sources */,
 				1CF9473C259279A100F84D8E /* MeetingHeaderView.swift in Sources */,
+				1CF947552593BD5500F84D8E /* ScrumData.swift in Sources */,
 				1CF94748259382E000F84D8E /* MeetingFooterView.swift in Sources */,
 				1C456458258D23A5000D3F34 /* DailyScrum.swift in Sources */,
 				1C456465259248D3000D3F34 /* DetailView.swift in Sources */,

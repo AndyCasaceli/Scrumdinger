@@ -7,20 +7,21 @@
 
 import SwiftUI
 
-struct DailyScrum: Identifiable {
+struct DailyScrum: Identifiable, Codable {
     let id: UUID
-    
     var title: String
     var attendees: [String]
     var lengthInMinutes: Int
     var color: Color
+    var history: [History]
     
-    init(id: UUID = UUID(), title: String, attendees: [String], lengthInMinutes: Int, color: Color) {
+    init(id: UUID = UUID(), title: String, attendees: [String], lengthInMinutes: Int, color: Color, history: [History] = []) {
         self.id = id
         self.title = title
         self.attendees = attendees
         self.lengthInMinutes = lengthInMinutes
         self.color = color
+        self.history = history
     }
 }
 
