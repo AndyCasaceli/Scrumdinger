@@ -35,6 +35,7 @@ struct SpeakerArc: Shape {
 
 struct MeetingTimerView: View {
     @Binding var speakers: [ScrumTimer.Speaker]
+    @Binding var isRecording: Bool
     var scrumColor: Color
     
     // The current speaker is the first speaker who isn’t flagged as completed. If there is no current speaker, the expression returns “Someone.”
@@ -48,6 +49,10 @@ struct MeetingTimerView: View {
                 Text(currentSpeaker)
                     .font(.title)
                 Text("is speaking")
+                Image(systemName: isRecording ? "mic" : "mic.slash")
+                    .font(.title)
+                    .padding(.top)
+                    .accessibilityLabel(isRecording ? "with transcription" : "without transcription")
             }
             .accessibilityElement(children: .combine)
             .foregroundColor(scrumColor.accessibleFontColor)
@@ -69,6 +74,6 @@ struct MeetingTimerView_Previews: PreviewProvider {
                                   ScrumTimer.Speaker(name: "Bill", isCompleted: false)
     ]
     static var previews: some View {
-        MeetingTimerView(speakers: $speakers, scrumColor: Color("Design"))
+        MeetingTimerView(speakers: $speakers, isRecording: .constant(true), scrumColor: Color("Design"))
     }
 }
